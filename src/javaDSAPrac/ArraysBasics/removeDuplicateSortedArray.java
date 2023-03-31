@@ -19,5 +19,8 @@ public class removeDuplicateSortedArray {
 
         int index = removeDuplicates(a);
         System.out.println(index);
+        for(int e : a) {
+            System.out.print(e);
+        }
     }
 }
