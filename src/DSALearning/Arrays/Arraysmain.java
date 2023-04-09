@@ -58,7 +58,7 @@ public class Arraysmain {
                 secondLargest = largest;
                 largest = i;
             }
-            else if(arr[i] < a[largest]) {
+            else if(arr[i] < arr[largest]) {
                 if(secondLargest == -1 || arr[i] > arr[secondLargest]) {
                     secondLargest = i;
                 }
