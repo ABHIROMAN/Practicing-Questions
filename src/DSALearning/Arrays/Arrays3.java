@@ -1,6 +1,5 @@
 package DSALearning.Arrays;
 
-import java.util.*;
 public class Arrays3 {
 
     static boolean searchInMatrix(int a[][], int key) {
