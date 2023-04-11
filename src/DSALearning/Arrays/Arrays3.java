@@ -43,6 +43,8 @@ public class Arrays3 {
         }
     }
 
+
+
     static void printMatrix(int a[][]) {
         int n = a.length;
 
@@ -56,22 +58,24 @@ public class Arrays3 {
 
     public static void main(String[] args) {
 
-        int a[][] = {
-                {1, 4, 5, 7},
-                {2, 5, 6, 9},
-                {6, 10, 11, 13},
-                {8, 12, 15, 18}
-        };
+//        int a[][] = {
+//                {1, 4, 5, 7},
+//                {2, 5, 6, 9},
+//                {6, 10, 11, 13},
+//                {8, 12, 15, 18}
+//        };
+
+        int a[][] = {{1, 2, 3}, {3, 5, 7}};
 
 //        int key = 2;
 //        System.out.println(searchInMatrix(a, key));
 
-        printMatrix(a);
+//        printMatrix(a);
 
-//        transposeOfMatrix(a);
-        rotateMatrix(a);
+        transposeOfMatrix(a);
+//        rotateMatrix(a);
 
-        System.out.println("******************");
+//        System.out.println("******************");
 
         printMatrix(a);
 

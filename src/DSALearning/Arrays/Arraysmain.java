@@ -20,13 +20,14 @@ public class Arraysmain {
         int i = 0;
         int n = arr.length;
 
+        //searching of element
         for(; i < n; i++) {
             if (arr[i] == key) {
                 break;
             }
         }
         if (i == n) return -1;
-
+        //deleting of element
         for(int j = i; j < n-1; j++) {
             arr[j] = arr[j + 1];
         }
