@@ -29,7 +29,7 @@ public class nQueenProblem {
 
             if(helper(a, n, row, col)) {
                 a[row][col] = 1;
-                if(nQueen(a, n, row + 1)) {
+                if(nQueen(a, n, row + 1)) { //Chalaaki
                     return true;
                 }
                 a[row][col] = 0;
