@@ -59,6 +59,4 @@ public class Arrays4 {
         }
         return false;
     }
-
-
 }
