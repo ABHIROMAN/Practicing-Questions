@@ -38,6 +38,5 @@ public class fragmentsDivisibleBy11 {
             }
         }
         System.out.println(c);
-
     }
 }
