@@ -22,7 +22,8 @@ public class equilibriumPoint {
     }
     public static void main(String[] args) {
 
-        int a[] = {10, 2, 8, 4, -2, 0};
+//        int a[] = {10, 2, 8, 4, -2, 0};
+        int a[] = {1, 2, 6, 4, 0, -1};
         System.out.println("Equilibrium Index : " + equilibriumIndex(a, a.length));
     }
 }
