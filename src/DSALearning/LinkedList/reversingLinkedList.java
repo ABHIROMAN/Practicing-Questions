@@ -10,7 +10,6 @@ public class reversingLinkedList {
             this.data = data;
         }
     }
-
     static Node reverseLL(Node head) {
         Node cur = head, prev = null;
         while(cur != null) {
