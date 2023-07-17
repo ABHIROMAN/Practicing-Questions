@@ -3,7 +3,6 @@ package DSALearning.Stacks;
 import java.util.ArrayDeque;
 
 public class maximumAreaInHistogram {
-
     //BRUTE FORCE APPROACH
     static int maxAreaHistogram(int a[]) {
 
@@ -63,7 +62,6 @@ public class maximumAreaInHistogram {
         }
         return ans;
     }
-
     static int maxAreaInHistogramOptimised(int a[]) {
 
         int ps[] = previousSmaller(a);
@@ -71,7 +69,7 @@ public class maximumAreaInHistogram {
 
         int max = 0;
         for(int i = 0; i < a.length; i++) {
-            int width = ns[i] - ps[i] - 1;
+            int width = ns[i] - ps[i] - 1;  // r - l - 1
             int curArea = width * a[i];
             max = Math.max(max, curArea);
         }
