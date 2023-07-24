@@ -1,7 +1,6 @@
 package DSALearning.DynamicProgramming;
 
 import java.util.Arrays;
-
 public class minimumCoinExchangeDP {
 
     static int minCoins(int a[], int n) {
